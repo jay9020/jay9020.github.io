@@ -97,26 +97,17 @@
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 You have {likes} likes
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                <span onClick={() => {
-                  callback(pic)
-                }}>{favouriteText}</span>
+                
                 </p>
                 </React.Fragment>
             );
     };
 
     var App = (props) => {
-      const [favourite, setFavourite] = React.useState(localStorage.getItem('favouriteImage') || 'None');
-
-      const changeFavourite = (favouriteImageName) => {
-        setFavourite(favouriteImageName);
-        localStorage.setItem('favouriteImage', favouriteImageName);
-      };
 
         var listItems = props.tileData.map((tileItem, i) => {
-          const amithefavourite = (tileItem.pic == favourite)? 'Favourite image' : 'Not Favourite';
             return (
-                <Tile key={i} {...tileItem} callback={changeFavourite} favouriteText={amithefavourite} />
+                <Tile key={i} {...tileItem} />
             );
         });
 
