@@ -89,16 +89,18 @@
 
         return (
                 <React.Fragment>
+                <div id="box">
                 <img src={pic} alt={label} className='image'/>
                 <p className='imageLabel'>
                 {label}
                 &nbsp;&nbsp;&nbsp;&nbsp;
                 <button onClick={incrementLikes}>Like</button>
                 &nbsp;&nbsp;&nbsp;&nbsp;
+                <p></p>
                 You have {likes} likes
                 &nbsp;&nbsp;&nbsp;&nbsp;
-                
                 </p>
+                </div>
                 </React.Fragment>
             );
     };

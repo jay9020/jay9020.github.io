@@ -58,9 +58,9 @@
     flex-flow: row wrap;
   }
 
-  .box {
-    display: flex;
-    justify-content: space-between;
+  #box {
+    padding: 20px;
+    padding-bottom: 30px;
   }
 
   .image {
