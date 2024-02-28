@@ -1,0 +1,91 @@
+* {
+    font-family:"Inter", sans-serif;
+      }
+  #container {
+      margin-bottom: 50px;
+      text-align: center;
+      background-image: linear-gradient(#e995be, white);
+      background-repeat: repeat-x;
+      background-position: top;
+}
+
+#news {
+      margin: 10px;
+      text-align: center;
+      column-count: 3;
+}
+
+  .navbar-custom {
+      background-color: #e995be;
+      height: 100px;
+      margin-bottom: 80px;
+  }
+  
+  .navbar .navbar-nav .nav-link {
+      color: white;
+  }
+
+  .navbar .navbar-nav .nav-item{
+      color: white;
+  }
+  
+  .navbar-nav .nav-item .nav-link:focus {
+  text-decoration: underline;
+}
+
+  .navbar-nav {
+  margin-right: 20px;
+}
+
+  .navbar .navbar-brand {
+      color: white;
+      margin-left: 20px;
+  }
+
+  .image {
+      width: inherit;
+      background-color: rgb(255, 255, 255);
+      padding: 8px;
+      height: 200px;
+      box-sizing: border-box;
+      text-align: center;
+      margin: 20px;
+      border-radius: 1px;
+      
+  }
+  .imageLabel {
+      text-align: center;
+      margin: auto;
+      padding: 10px;
+      background-color: rgba(100, 100, 100, 0.5);
+      color: white;
+      height: 100%;
+      width: fit-content;
+  }
+
+  /* styles for desktop devices */
+  @media only screen and (min-width: 992px) {
+    body {
+      font-size: 16px;
+      width: 100%;
+      margin: auto;
+    }
+  }
+
+  /* styles for tablet devices */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 14px;
+      width: 90%;
+      margin: auto;
+    }
+  }
+
+  /* styles for mobile devices */
+  @media only screen and (max-width: 767px) {
+    body {
+      font-size: 12px;
+      width: 100%;
+      margin: 0;
+    }
+  }
