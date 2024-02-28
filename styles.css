@@ -58,9 +58,8 @@
     flex-flow: row wrap;
   }
 
-  #box {
+  .box {
     padding: 20px;
-    padding-bottom: 30px;
   }
 
   .image {
@@ -74,6 +73,18 @@
       border-radius: 1px;
       
   }
+
+  .picTitle {
+    text-align: center;
+    font-family: Rubik;
+    margin: auto;
+    padding: 10px;
+    background-color: rgba(100, 100, 100, 0.5);
+    color: white;
+    height: fit-content;
+    width: fit-content;
+}
+
   .imageLabel {
       text-align: center;
       margin: auto;
