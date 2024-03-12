@@ -1,16 +1,21 @@
 * {
-    font-family:"Inter", sans-serif;
+    font-family:"Rubik", sans-serif;
 }
   
 #container {
-      margin-bottom: 50px;
-      text-align: center;
-      background-image: linear-gradient(#e995be, white);
-      background-repeat: repeat-x;
-      background-position: top;
+  text-align: center;
+  background-image: linear-gradient(#e995be, white);
+  background-repeat: repeat-x;
+  background-position: top;
 }
 
 #hero {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
@@ -29,6 +34,8 @@
       margin: 10px;
       text-align: center;
       column-count: 3;
+      padding-top: 50px;
+      padding-bottom: 50px;
 }
 
 .tile { 
@@ -39,6 +46,8 @@
         height: auto;
         max-width: 100%;
 }
+
+/* Navigation (customisations to override Bootstrap) */
 
   .navbar-custom {
       background-color: #e995be;
@@ -61,8 +70,6 @@
       margin-left: 20px;
   }
 
-  /* added code to make the navigation horizontal */
-
   .navbar-nav {
     display: flex;
     justify-content: space-evenly;
@@ -74,6 +81,15 @@
     padding: 0 15px;
     flex-flow: row wrap;
   }
+
+/* Footer (customisations to override Bootstrap) */
+
+.pt-4 {
+  height: 200px;
+  background-color: #e995be;
+}
+
+/* LOL character box customisations*/
 
   .box {
     padding: 20px;
@@ -112,12 +128,15 @@
       width: fit-content;
   }
 
+/* Individual image customisation to fit display of device */
+
   img {
     height: auto; 
     max-width: 100%;
     }
 
-  /* styles for desktop devices */
+/* Media query styles for desktop devices */
+
   @media only screen and (min-width: 992px) {
     body {
       font-size: 16px;
@@ -126,7 +145,8 @@
     }
   }
 
-  /* styles for tablet devices */
+  /* Media query styles for tablet devices */
+
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
       font-size: 14px;
@@ -135,7 +155,8 @@
     }
   }
 
-  /* styles for mobile devices */
+  /* Media query styles for mobile devices */
+
   @media only screen and (max-width: 767px) {
     body {
       font-size: 12px;
