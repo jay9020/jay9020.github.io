@@ -87,6 +87,8 @@
 .pt-4 {
   height: 200px;
   background-color: #e995be;
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
 }
 
 /* LOL character box customisations*/
