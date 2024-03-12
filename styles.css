@@ -1,12 +1,28 @@
 * {
     font-family:"Inter", sans-serif;
-      }
-  #container {
+}
+  
+#container {
       margin-bottom: 50px;
       text-align: center;
       background-image: linear-gradient(#e995be, white);
       background-repeat: repeat-x;
       background-position: top;
+}
+
+#hero {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#category-heading {
+  text-align: center;
+  padding-top: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  background-color: white;
 }
 
 #news {
@@ -20,7 +36,8 @@
         box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
         padding: 20px; 
         border-radius: 10px; 
-        transition: transform 0.3s ease-in-out; 
+        height: auto;
+        max-width: 100%;
 }
 
   .navbar-custom {
@@ -71,7 +88,7 @@
       text-align: center;
       margin: 20px;
       border-radius: 1px;
-      
+      object-fit: contain;
   }
 
   .picTitle {
@@ -94,6 +111,11 @@
       height: fit-content;
       width: fit-content;
   }
+
+  img {
+    height: auto; 
+    max-width: 100%;
+    }
 
   /* styles for desktop devices */
   @media only screen and (min-width: 992px) {
