@@ -23,10 +23,10 @@
 
 #category-heading {
   text-align: center;
-  padding-top: 75px;
+  padding-top: 50px;
+  padding-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
-  height: 200px;
   background-color: white;
 }
 
@@ -36,6 +36,7 @@
       padding-top: 50px;
       padding-bottom: 50px;
       background-color: #e995be;
+      border: none;
 }
 
 .tile { 
@@ -48,10 +49,6 @@
 }
 
 /* Navigation (customisations to override Bootstrap) */
-
-  .navbar-custom {
-      background-color: #e995be;
-  }
   
   .navbar .navbar-nav .nav-link {
       color: white;
@@ -59,6 +56,8 @@
 
   .navbar .navbar-nav .nav-item {
       color: white;
+      padding-left: 20px;
+      padding-right: 20px;
   }
   
   .navbar-nav .nav-item .nav-link:focus {
@@ -70,16 +69,13 @@
       margin-left: 20px;
   }
 
-  .navbar-nav {
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row wrap;
+  .navbar-toggler {
+      color: white;
+      margin-right: 20px;
   }
-  
-  .navbar-nav li {
-    display: flex; 
-    padding: 0 15px;
-    flex-flow: row wrap;
+
+  .navbar-toggler-icon {
+      color: white !important;
   }
 
 /* Footer (customisations to override Bootstrap) */
@@ -94,7 +90,7 @@
 /* LOL character box customisations*/
 
   .box {
-    padding: 20px;
+    padding: 80px 20px 20px 20px;
   }
 
   .image {
@@ -145,6 +141,13 @@
       width: 100%;
       margin: auto;
     }
+
+    .navbar-expand-lg .navbar-collapse {
+      display: flex !important;
+      flex-basis: auto;
+      justify-content: flex-end;
+      padding-right: 20px;
+  }
   }
 
   /* Media query styles for tablet devices */
