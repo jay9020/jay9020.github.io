@@ -28,7 +28,7 @@
   
 #nav-container {
   text-align: center;
-  background-image: linear-gradient(#e995be, white);
+  background-color: #e995be;
   background-repeat: repeat-x;
   background-position: top;
 }
