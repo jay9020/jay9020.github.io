@@ -203,9 +203,10 @@
 
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     body {
-      font-size: 14px;
+      font-size: 8px;
       width: 90%;
       margin: auto;
+      flex-direction: row;
     }
   }
 
@@ -213,8 +214,9 @@
 
   @media only screen and (max-width: 767px) {
     body {
-      font-size: 12px;
+      font-size: 8px;
       width: 100%;
       margin: auto;
+      flex-direction: row;
     }
   }
