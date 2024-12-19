@@ -47,10 +47,29 @@
 
 #category-heading {
   padding-top: 30px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   background-color: white;
+}
+
+#character-options {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#selection-box {
+  padding-bottom: 30px;
+  padding-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#selections-container {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #news {
