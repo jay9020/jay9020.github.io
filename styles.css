@@ -2,6 +2,20 @@
     font-family:"Rubik", sans-serif;
 }
 
+body { 
+  background-color: #e995be;
+}
+
+h1,h2,h3,h4,h5 {
+  color:white;
+}
+
+#smaller-heading {
+  color:white;
+}
+
+/* Row and column elements */
+
 .col-span-3 {
 	grid-column: span 3 / span 3;
 }
@@ -25,6 +39,8 @@
 .col-span-12 {
 	grid-column: span 12 / span 12;
 }
+
+/* Nav elements */
   
 #nav-container {
   text-align: center;
@@ -47,10 +63,8 @@
 
 #category-heading {
   padding-top: 30px;
-  padding-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
-  background-color: white;
 }
 
 #character-options {
@@ -73,12 +87,14 @@
 }
 
 #news {
-      text-align: center;
-      column-count: 3;
       padding-top: 30px;
       padding-bottom: 50px;
+      padding-left: 20px;
+      padding-right: 20px;
       background-color: #e995be;
-      border: none;
+      display: grid;
+      grid-template-columns: auto auto auto;
+      margin: auto;
 }
 
 .tile { 
@@ -139,25 +155,25 @@
 /* LOL character box customisations*/
 
   .box {
-    padding: 30px 20px 0px 20px;
-  }
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    }
 
   .image {
-      width: inherit;
+      width: fit-content;
       background-color: rgb(255, 255, 255);
       padding: 8px;
       height: 200px;
-      box-sizing: border-box;
-      text-align: center;
-      margin: 20px;
-      border-radius: 1px;
-      object-fit: contain;
+      margin: auto;
+      margin-bottom: 20px;
   }
 
   .picTitle {
     text-align: center;
     font-family: Rubik;
     margin: auto;
+    margin-bottom: 20px;
     padding: 10px;
     background-color: rgba(100, 100, 100, 0.5);
     color: white;
@@ -206,7 +222,6 @@
       font-size: 8px;
       width: 90%;
       margin: auto;
-      flex-direction: row;
     }
   }
 
@@ -217,6 +232,5 @@
       font-size: 8px;
       width: 100%;
       margin: auto;
-      flex-direction: row;
     }
   }
