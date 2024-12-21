@@ -87,8 +87,8 @@ h1,h2,h3,h4,h5 {
 }
 
 #news {
-      padding-top: 30px;
-      padding-bottom: 50px;
+      padding-top: 10px;
+      padding-bottom: 10px;
       padding-left: 20px;
       padding-right: 20px;
       background-color: #e995be;
@@ -161,7 +161,7 @@ h1,h2,h3,h4,h5 {
     }
 
   .image {
-      width: fit-content;
+      width: auto;
       background-color: rgb(255, 255, 255);
       padding: 8px;
       height: 200px;
