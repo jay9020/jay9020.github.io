@@ -187,15 +187,13 @@ h1,h2,h3,h4,h5 {
       padding: 10px;
       background-color: rgba(100, 100, 100, 0.5);
       color: white;
-      height: fit-content;
-      width: fit-content;
   }
 
 /* Individual image customisation to fit display of device */
 
   img {
     height: auto; 
-    max-width: 100%;
+    max-width:fit-content;
     }
 
 /* Media query styles for desktop devices */
@@ -214,17 +212,7 @@ h1,h2,h3,h4,h5 {
       padding-right: 20px;
   }
   }
-
-  /* Media query styles for tablet devices */
-
-  @media only screen and (min-width: 768px) and (max-width: 991px) {
-    body {
-      font-size: 8px;
-      width: 90%;
-      margin: auto;
-    }
-  }
-
+  
   /* Media query styles for mobile devices */
 
   @media only screen and (max-width: 767px) {
@@ -232,5 +220,22 @@ h1,h2,h3,h4,h5 {
       font-size: 8px;
       width: 100%;
       margin: auto;
+    }
+    h3 {
+      font-size: 12px;
+    }
+  }
+  
+
+  /* Media query styles for tablet devices */
+
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    body {
+      font-size: 8px;
+      width: 100%;
+      margin: auto;
+    }
+    h3 {
+      font-size: 16px;
     }
   }
