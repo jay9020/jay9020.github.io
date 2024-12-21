@@ -93,7 +93,7 @@ h1,h2,h3,h4,h5 {
       padding-right: 20px;
       background-color: #e995be;
       display: grid;
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto auto auto;
       margin: auto;
 }
 
@@ -224,6 +224,12 @@ h1,h2,h3,h4,h5 {
     h3 {
       font-size: 12px;
     }
+    #news {
+      grid-template-columns: auto auto auto;
+    }
+    .image {
+      max-block-size: min-content;
+    }
   }
   
 
@@ -237,5 +243,11 @@ h1,h2,h3,h4,h5 {
     }
     h3 {
       font-size: 16px;
+    }
+    #news {
+      grid-template-columns: auto auto auto;
+    }
+    .image {
+      max-block-size: min-content;
     }
   }
