@@ -225,7 +225,7 @@ h1,h2,h3,h4,h5 {
       font-size: 12px;
     }
     #news {
-      grid-template-columns: auto auto auto;
+      grid-template-columns: auto auto;
     }
     .image {
       max-block-size: min-content;
