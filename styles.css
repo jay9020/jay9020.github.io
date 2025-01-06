@@ -6,7 +6,7 @@ body {
   background-color: #000000;
 }
 
-h1,h2,h3,h4,h5 {
+h1,h2,h3,h4,h5,p {
   color:white;
 }
 
@@ -144,7 +144,7 @@ h1,h2,h3,h4,h5 {
 }
 
 .footer {
-  padding-top: 30px;
+  padding-top: 50px;
   padding-bottom: 20px;
   background-color: #000000;
   text-align: center;
