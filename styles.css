@@ -40,6 +40,10 @@ h1,h2,h3,h4,h5,p {
 	grid-column: span 12 / span 12;
 }
 
+.list-inline-item:not(:last-child) {
+  margin-right: 0rem;
+}
+
 /* Nav elements */
   
 #nav-container {
@@ -47,61 +51,6 @@ h1,h2,h3,h4,h5,p {
   background-color: #000000;
   background-repeat: repeat-x;
   background-position: top;
-}
-
-#hero {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#banner {
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#category-heading {
-  padding-top: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#character-options {
-  padding-top: 20px;
-  padding-bottom: 30px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#selection-box {
-  padding-bottom: 30px;
-  padding-top: 30px;
-}
-
-#selections-container {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#news {
-      padding-top: 10px;
-      padding-bottom: 10px;
-      padding-left: 20px;
-      padding-right: 20px;
-      background-color: #000000;
-      display: grid;
-      grid-template-columns: auto auto auto auto;
-      margin: auto;
-}
-
-.tile { 
-        background-color: #fff; 
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
-        padding: 20px; 
-        border-radius: 10px; 
-        height: auto;
-        max-width: 100%;
 }
 
 /* Navigation (customisations to override Bootstrap) */
@@ -136,52 +85,12 @@ h1,h2,h3,h4,h5,p {
 
 /* Footer (customisations to override Bootstrap) */
 
-.pt-4 {
-  height: 200px;
-  background-color: #000000;
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-}
-
 .footer {
   padding-top: 50px;
   padding-bottom: 20px;
   background-color: #000000;
   text-align: center;
 }
-
-/* LOL character box customisations*/
-
-  .box {
-    padding: 30px;
-    display: flex;
-    flex-direction: column;
-    }
-
-  .image {
-      background-color: rgb(255, 255, 255);
-      padding: 8px;
-      margin-bottom: 20px;
-      height: auto; 
-      max-width: 100%;
-  }
-
-  .picTitle {
-    text-align: center;
-    font-family: Rubik;
-    margin-bottom: 20px;
-    padding: 10px;
-    background-color: rgba(100, 100, 100, 0.5);
-    color: white;
-    height: fit-content;
-}
-
-  .imageLabel {
-      text-align: center;
-      padding: 10px;
-      background-color: rgba(100, 100, 100, 0.5);
-      color: white;
-  }
 
 /* Individual image customisation to fit display of device */
 
@@ -205,6 +114,10 @@ h1,h2,h3,h4,h5,p {
       justify-content: flex-end;
       padding-right: 20px;
   }
+
+  .navbar-toggler-icon {
+    color: white !important;
+  }
   }
   
 /* Media query styles for tablet devices */
@@ -225,6 +138,9 @@ h1,h2,h3,h4,h5,p {
   #news {
     grid-template-columns: auto auto auto;
   }
+  .navbar-toggler-icon {
+    color: white !important;
+  }
 }
 
   /* Media query styles for mobile devices */
@@ -244,5 +160,8 @@ h1,h2,h3,h4,h5,p {
     }
     #news {
       grid-template-columns: auto auto;
+    }
+    .navbar-toggler-icon {
+      color: white !important;
     }
   }
