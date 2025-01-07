@@ -49,6 +49,13 @@ h1,h2,h3,h4,h5,p {
     max-height: min-content;
 }
 
+#devicons i {
+  line-height: inherit;
+  font-size: 75px; 
+  color: white; 
+  margin: 15px;
+}
+
 /* Nav elements */
   
 #nav-container {
