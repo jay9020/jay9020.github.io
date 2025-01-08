@@ -44,11 +44,6 @@ h1,h2,h3,h4,h5,p {
   margin-right: 0rem;
 }
 
-#image img {
-    max-width: -webkit-fill-available;
-    max-height: min-content;
-}
-
 #devicons i {
   line-height: inherit;
   font-size: 75px; 
