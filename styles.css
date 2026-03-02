@@ -193,4 +193,16 @@ h1,h2,h3,h4,h5,p {
     .navbar-toggler-icon {
       color: white !important;
     }
+    .profile-wrapper {
+    justify-content: center;
+    padding-right: 0;
+    margin-top: 30px;
   }
+  .profile-pic {
+    width: 180px;
+    height: 180px;
+  }
+  .col-span-6 {
+    grid-column: span 12;
+  }
+}
