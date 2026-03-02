@@ -78,8 +78,9 @@ h1,h2,h3,h4,h5,p {
 
 .profile-wrapper {
   display: flex;
-  justify-content: center;   /* horizontal center inside column */
-  align-items: center;       /* vertical alignment */
+  justify-content: flex-end;   /* pushes image to right edge of column */
+  align-items: center;
+  padding-right: 60px;         /* soft spacing from edge */
 }
 
 /* Navigation (customisations to override Bootstrap) */
