@@ -76,6 +76,12 @@ h1,h2,h3,h4,h5,p {
   border: 4px solid #ffffff;
 }
 
+.profile-wrapper {
+  display: flex;
+  justify-content: center;   /* horizontal center inside column */
+  align-items: center;       /* vertical alignment */
+}
+
 /* Navigation (customisations to override Bootstrap) */
   
   .navbar .navbar-nav .nav-link {
