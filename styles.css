@@ -66,6 +66,16 @@ h1,h2,h3,h4,h5,p {
   background-position: top;
 }
 
+/* Profile picture circle element */
+
+.profile-pic {
+  width: 260px;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #ffffff;
+}
+
 /* Navigation (customisations to override Bootstrap) */
   
   .navbar .navbar-nav .nav-link {
